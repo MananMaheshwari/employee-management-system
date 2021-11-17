@@ -1,7 +1,7 @@
 import React from 'react'
 import './Information.css'
 
-function Information() {
+cInformation() {
     return (
         <div className="info-container">
             <h1 className="heading">Hello</h1>
