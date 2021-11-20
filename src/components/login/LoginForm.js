@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link } from 'react-router-dom'
 const LoginForm = () => {
     return (
       <div className="login-right-container">
@@ -25,9 +25,7 @@ const LoginForm = () => {
             </label>
             <input placeholder="Captcha" />
           </div>
-          <button type="submit" className="ui button submitButton">
-            <a className="tagLink" href="/user">Submit</a>
-          </button>
+          <Link to="user" className="ui button submitButton">Submit</Link>
         </form>
       </div>
     );

@@ -11,11 +11,11 @@ const UserInfo = () => {
                 </thead>
                 <tbody>
                     <tr>
-                    <td data-label="Parameter">Application Number: </td>
+                    <td data-label="Parameter">Employee ID: </td>
                     <td data-label="Value">19RMO2248</td>
                     </tr>
                     <tr>
-                    <td data-label="Parameter">Employee Name: </td>
+                    <td data-label="Parameter">Name: </td>
                     <td data-label="Value">Poojan Presi</td>
                     </tr>
                     <tr>
@@ -27,20 +27,20 @@ const UserInfo = () => {
                     <td data-label="Value">Male</td>
                     </tr>
                     <tr>
-                    <td data-label="Parameter">Native Language: </td>
-                    <td data-label="Value">Gujrati</td>
+                    <td data-label="Parameter">Degree and Institution: </td>
+                    <td data-label="Value">PHD Harvard University</td>
                     </tr>
                     <tr>
-                    <td data-label="Parameter">Blood Group: </td>
-                    <td data-label="Value">A+</td>
+                    <td data-label="Parameter">Position: </td>
+                    <td data-label="Value">Associate Professor, Computer Science and Engineering</td>
                     </tr>
                     <tr>
-                    <td data-label="Parameter">Physically Challenged: </td>
-                    <td data-label="Value">No</td>
+                    <td data-label="Parameter">Research Area: </td>
+                    <td data-label="Value">Image Processing, Machine Learning, Deep Learning, Data Science</td>
                     </tr>
                     <tr>
-                    <td data-label="Parameter">Marital Status </td>
-                    <td data-label="Value">Single</td>
+                    <td data-label="Parameter">Email ID: </td>
+                    <td data-label="Value">poojanpresi@gmail.com</td>
                     </tr>
                 </tbody>
             </table>

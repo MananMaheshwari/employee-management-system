@@ -14,6 +14,9 @@ const UserNav = () => {
                     <NavLink className="item" to="leave-status">
                         Check for leave status
                     </NavLink>
+                    <NavLink className="item" to="research">
+                        Research
+                    </NavLink>
             </div>
     )
 }

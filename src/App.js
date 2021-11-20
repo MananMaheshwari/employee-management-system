@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes, Navigate} from 'react-router-dom';
 import UserInfo from './components/user/display page/UserInfo';
 import LeaveApplyForm from './components/user/display page/LeaveApplyForm';
 import LeaveStatus from './components/user/display page/LeaveStatus';
+import Research from './components/user/display page/Research';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="my-info" element={<UserInfo/>}/>
             <Route path="leave-apply" element={<LeaveApplyForm/>}/>
             <Route path="leave-status" element={<LeaveStatus/>} />
+            <Route path="research" element={<Research/>}/>
           </Route>
         </Routes>
       </div>
