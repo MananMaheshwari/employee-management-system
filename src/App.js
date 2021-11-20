@@ -1,13 +1,25 @@
 import './App.css';
-import Information from './components/Information';
-import NavigationBar from './components/NavigationBar';
 import Login from './components/login/Login';
+import User from './components/user/User';
+import { BrowserRouter, Route, Routes, Navigate} from 'react-router-dom';
+import UserInfo from './components/user/display page/UserInfo';
+import LeaveApplyForm from './components/user/display page/LeaveApplyForm';
+import LeaveStatus from './components/user/display page/LeaveStatus';
 
 function App() {
   return (
-    <div className="App">
-        <Login/>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Routes>
+          <Route exact path="/" element={<Login/>}/>
+          <Route path="/user" element={<User/>}>
+            <Route path="my-info" element={<UserInfo/>}/>
+            <Route path="leave-apply" element={<LeaveApplyForm/>}/>
+            <Route path="leave-status" element={<LeaveStatus/>} />
+          </Route>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

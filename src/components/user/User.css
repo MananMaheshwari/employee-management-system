@@ -1,0 +1,17 @@
+.user-nav{
+    width: 25%;
+    float: left;
+    background-color:cornsilk !important;
+    height: 400px;
+}
+.display-page-component{
+    width: 75%;
+    float: right;
+}
+.display-page-header{
+    right: 100px;
+    float: right;
+}
+.user-navImg{
+    height: 60px;
+}
