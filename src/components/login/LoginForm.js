@@ -26,7 +26,7 @@ const LoginForm = () => {
             <input placeholder="Captcha" />
           </div>
           <button type="submit" className="ui button submitButton">
-            Submit
+            <a className="tagLink" href="/user">Submit</a>
           </button>
         </form>
       </div>

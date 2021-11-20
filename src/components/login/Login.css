@@ -75,9 +75,11 @@
 .submitButton {
     background: #40A9FF !important;
     border-radius: 2px !important;
-    font-size: 16px !important;
-    color: white !important;
     width: 100%;
     margin: 16px 0px !important;
 }
 
+.tagLink {
+    font-size: 16px !important;
+    color: white !important;
+}
