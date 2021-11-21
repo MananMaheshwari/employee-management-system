@@ -4,7 +4,7 @@ import './Login.css'
 const LoginNav = () => {
     return (
         <div className="login-page-navbar">
-            <img className="login-nav-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo-LNMIIT.svg/984px-Logo-LNMIIT.svg.png" alt="LNMIIT logo"/>
+            <img className="login-nav-img" src="https://i.ibb.co/rfr9Tw8/984px-Logo-LNMIIT-svg.png" alt="LNMIIT logo"/>
         </div>
     )
 }
