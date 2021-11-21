@@ -60,7 +60,6 @@
 .employeeName {
     display: flex;
     flex-direction: column;
-    
 }
 
 .name {

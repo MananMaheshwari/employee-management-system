@@ -10,7 +10,7 @@ import './User.css';
 
 const User = (props) => {
 console.log(props);
-    return (
+    return ( 
       <div className="userMain">
         <UserNav />
         <div className="userMainClass">
